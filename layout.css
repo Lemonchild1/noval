@@ -1,0 +1,70 @@
+body {
+    width: 960px; 
+    margin: 30px auto;
+}
+main {
+    display: flex;
+}
+
+img {
+    src: url(./Gambar/header.jpeg);
+    width: 960px;
+    height: 150px;
+    text-align: left;
+}
+.logo,
+.navigasi,
+.konten,
+.sidebar,
+.footer{
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    background: #99D9EA;
+    text-align: center;
+}    
+.navigasi {
+    width: 100%;
+    height: auto;
+    background: rgb(14, 146, 179);
+    text-align: center;
+}
+.konten {
+    width: 70%;
+    background: #efe4b0;
+    text-align: center;
+}
+.sidebar {
+    width: 30%;
+    background: #FD7E00;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background: #C3C3C3;
+    text-align: center;
+}
+.navigasi ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    }
+    .navigasi li{
+    float: left;
+    margin: 0 10px;
+    }
+.sidebar ul {
+    text-align: left;
+}
+.sidebar li {
+    text-align: left;
+}
+.konten p {
+    text-align: left;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
